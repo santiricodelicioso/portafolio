@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio de Arquitectura
 
-## Getting Started
+Este es un portafolio profesional para un delineante de arquitectura, construido con Next.js y Tailwind CSS.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Diseño moderno y responsivo
+- Sección de proyectos destacados
+- Experiencia laboral
+- Habilidades técnicas y blandas
+- Formulario de contacto
+- Integración con redes sociales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js 18.0.0 o superior
+- npm o yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación
 
-## Learn More
+1. Clona este repositorio
+2. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## Personalización
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Imágenes de Proyectos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Coloca tus imágenes de proyectos en el directorio `public/projects/`
+2. Las imágenes deben tener un tamaño recomendado de 800x600 píxeles
+3. Actualiza las rutas de las imágenes en el archivo `src/app/page.tsx`
 
-## Deploy on Vercel
+### Información Personal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Actualiza la información personal en el archivo `src/app/page.tsx`:
+   - Nombre
+   - Descripción
+   - Proyectos
+   - Experiencia laboral
+   - Habilidades
+   - Enlaces a redes sociales
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Formulario de Contacto
+
+El formulario de contacto está configurado para simular el envío de mensajes. Para implementar el envío real de correos:
+
+1. Configura un servicio de correo electrónico (como SendGrid, Mailgun, etc.)
+2. Actualiza la función `handleSubmit` en `src/components/ContactForm.tsx`
+
+## Tecnologías Utilizadas
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- ESLint
+
+## Licencia
+
+MIT
+"# portafolio" 
