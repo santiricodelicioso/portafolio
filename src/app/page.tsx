@@ -1,35 +1,8 @@
 import Link from 'next/link'
-import ProjectCard from '@/components/ProjectCard'
 import ExperienceCard from '@/components/ExperienceCard'
 import SkillCard from '@/components/SkillCard'
-import ContactForm from '@/components/ContactForm'
-import Image from 'next/image'
 import ContactButtons from '@/components/ContactButtons'
 import Carousel from '@/components/Carousel'
-
-const projects = [
-  {
-    title: "Proyecto Residencial Moderno",
-    description: "Diseño y documentación de vivienda unifamiliar con enfoque en sostenibilidad y eficiencia energética.",
-    imageUrl: "/projects/project1.jpg",
-    tags: ["Residencial", "AutoCAD", "BIM"],
-    link: "/proyectos/residencial-moderno"
-  },
-  {
-    title: "Centro Comercial Plaza Central",
-    description: "Desarrollo de planos técnicos y documentación para centro comercial de 3 niveles.",
-    imageUrl: "/projects/project2.jpg",
-    tags: ["Comercial", "Revit", "Coordinación"],
-    link: "/proyectos/plaza-central"
-  },
-  {
-    title: "Renovación Edificio Histórico",
-    description: "Documentación y planos para la restauración de edificio patrimonial del siglo XIX.",
-    imageUrl: "/projects/project3.jpg",
-    tags: ["Restauración", "AutoCAD", "Histórico"],
-    link: "/proyectos/renovacion-historica"
-  }
-]
 
 const experiences = [
   {
