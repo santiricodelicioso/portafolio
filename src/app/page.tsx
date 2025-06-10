@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link'
 import ExperienceCard from '@/components/ExperienceCard'
 import SkillCard from '@/components/SkillCard'
