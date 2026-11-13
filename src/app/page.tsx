@@ -16,9 +16,29 @@ const navItems = [
 
 const experiences = [
   {
+    title: "Diseñador de Redes",
+    company: "SCITIC S.A.S.",
+    period: "15 de junio de 2026 – 15 de diciembre de 2026",
+    description: [
+      "Diseño de redes de telecomunicaciones y redes técnicas complementarias para proyectos de vivienda, hospitales y hoteles.",
+      "Coordinación de diseños con otras disciplinas mediante flujos de trabajo BIM.",
+      "Trabajo colaborativo en la nube, con vinculación e integración de archivos y modelos.",
+    ],
+    technologies: [
+      "Diseño de redes",
+      "Telecomunicaciones",
+      "Coordinación interdisciplinaria",
+      "BIM",
+      "Trabajo en la nube",
+      "Vivienda",
+      "Hospitalario",
+      "Hotelero",
+    ],
+  },
+  {
     title: "Delineante Arquitectónico Freelance",
     company: "Independiente",
-    period: "2025 – Actualidad",
+    period: "2025 – 2026",
     description: [
       "Remodelación de viviendas y organización de planos.",
       "Levantamientos As-Built y modelado de 2D a 3D.",
@@ -249,6 +269,14 @@ export default function Home() {
 
       <div className="relative h-screen overflow-hidden">
         <Carousel />
+        <div className="pointer-events-none absolute inset-x-0 top-24 z-10 flex justify-center px-4 sm:top-28">
+          <p
+            role="status"
+            className="rounded-full border border-white/30 bg-gray-900/85 px-5 py-2 text-center text-xs font-semibold tracking-[0.18em] text-white shadow-lg backdrop-blur-sm sm:text-sm"
+          >
+            ACTUALIZACIÓN DE PROYECTOS, PRONTO
+          </p>
+        </div>
       </div>
 
       <section className="bg-white py-20">
